@@ -67,11 +67,11 @@ scene.add(sunLight);
 function animate() {
   requestAnimationFrame(animate);
 
-  earthMesh.rotation.y += 0.002;
-  lightsMesh.rotation.y += 0.002;
-  cloudsMesh.rotation.y += 0.0023;
-  glowMesh.rotation.y += 0.002;
-  stars.rotation.y -= 0.0002;
+  earthMesh.rotation.y += 0.009;
+  lightsMesh.rotation.y += 0.009;
+  cloudsMesh.rotation.y += 0.0093;
+  glowMesh.rotation.y += 0.009;
+  stars.rotation.y -= 0.0009;
   renderer.render(scene, camera);
 }
 
